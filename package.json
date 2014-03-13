@@ -1,6 +1,6 @@
 {
   "name": "wotd",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "get the word of the day from the Merriam-Webster website",
   "main": "index.js",
   "directories": {
