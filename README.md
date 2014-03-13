@@ -1,6 +1,8 @@
 word-of-the-day.js
 ===
 
+[![Build Status](https://travis-ci.org/vohof/word-of-the-day.js.png)](https://travis-ci.org/vohof/word-of-the-day.js)
+
 Retrieves the word of the day from merriam-webster's website
 
 Install
@@ -24,6 +26,17 @@ wotd(function(err, result) {
   console.log(result);
 });
 ```
+
+API
+---
+
+### wotd(callback)
+
+Calls `callback` with arguments:
+
+ 1. an `Error` object or `null`
+ 2. an object containing the word of the day
+
 LICENSE
 ---
 
